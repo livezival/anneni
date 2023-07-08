@@ -114,19 +114,19 @@ h2 {
 }
 
 #global-counter {
-    color: #574f84;
+    color: #ba00c1;
     font-size: 2em;
     line-height: 38px;
 }
 
 #local-counter {
-    color: #574f84;
+    color: #ba00c1;
     /* font-size: 0.75em; */
     font-size: 2em;
 }
 
 #counter-button {
-    background-color: #574f84;
+    background-color: #ba00c1;
     border: none;
     border-radius: 16px;
     color: white;
@@ -146,7 +146,7 @@ h2 {
 }
 
 #counter-button:hover {
-    background-color: #2d2463;
+    background-color: #72006e;
 }
 
 #counter-button:active {
@@ -199,12 +199,17 @@ h2 {
     border-bottom-right-radius: 2% 3.5%;
 }
 
-/* test,由vgwik添加 */
 #anneni-card:hover {
     background-color: #ececec;
     transform: translate3d(-0.5px, -0.5px, 0px);
     transition: transform 0.3s ease;
     box-shadow: 2px 0.9px 2.5px 0.5px #00000042;
+}
+
+@media screen and (max-width: 600px) {
+    #anneni-card {
+        max-width: 100%;
+    }
 }
 
 .footer-icon {
