@@ -206,7 +206,7 @@ h2 {
     box-shadow: 2px 0.9px 2.5px 0.5px #00000042;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
     #anneni-card {
         max-width: 100%;
     }
